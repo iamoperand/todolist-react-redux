@@ -5,7 +5,7 @@ import { addTodo } from '../../redux/actions';
 import TodoList from './TodoList';
 
 const mapStateToProps = state => ({
-  todos: state.todoListReducer,
+  todos: state.todoList,
 });
 
 const mapDispatchToProps = {
